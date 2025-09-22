@@ -1,0 +1,29 @@
+﻿# Node / web
+apps/web/node_modules/
+apps/web/dist/
+*.log
+# 1) Go to project root
+cd C:\EHP\equity-research-copilot
+
+# 2) Create a .gitignore (skip if you already have one)
+@"
+# Node / web
+apps/web/node_modules/
+apps/web/dist/
+*.log
+
+# Python / api
+apps/api/.venv/
+apps/api/__pycache__/
+apps/api/dev.db
+apps/api/*.sqlite*
+*.pyc
+
+# Env / tooling
+.env
+.env.*
+.DS_Store
+
+# Build artifacts
+**/coverage/
+**/.pytest_cache/
